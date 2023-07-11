@@ -2,6 +2,7 @@
 import './App.css'
 import CakeView from './features/cake/cakeView'
 import IceCreamView from './features/icecream/IceCreamView'
+import UserView from './features/userAsync/UserView'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <CakeView/>
       <IceCreamView/>
+      <UserView/>
     </div>
     </>
   )
